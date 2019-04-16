@@ -187,14 +187,18 @@ ice = {
         'immunities':[]
         }
 
+#%%
+
 type_list = [bug, dark, dragon, electric, fighting,
              fire, flying, ghost, grass, ground, ice,
              normal, poison, psychic, rock, steel, water]
 
-for itm in type_list:
-    with open('types/' + itm['Type'][0] + '.pickle', 'wb') as output_file:
-        pickle.dump(itm, output_file)
-        
+#%%
+
+def make_pickles(ls = type_list):
+    for itm in ls:
+        with open('types/' + itm['Type'][0] + '.pickle', 'wb') as output_file:
+            pickle.dump(itm, output_file)
         
 #%%
 print('List of Types, sorted alphabetically:')

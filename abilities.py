@@ -288,9 +288,11 @@ ability_list = [air_lock, arena_trap, battle_armor, blaze, cacophony,
                 
                 ]
 
-for itm in ability_list:
-    with open('abilities/' + itm['Ability'] + '.pickle', 'wb') as output_file:
-        pickle.dump(itm, output_file)
+#%%
+def make_pickles(ls = ability_list):
+    for itm in ls:
+        with open('abilities/' + itm['Ability'] + '.pickle', 'wb') as output_file:
+            pickle.dump(itm, output_file)
         
 #%%
 print('List of Abilities, sorted alphabetically:')
