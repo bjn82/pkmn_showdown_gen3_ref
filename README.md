@@ -14,9 +14,11 @@ I'm not affiliated with Pokemon Showdown, Nintendo, Creatures Inc, etc. I just l
 ### How to use: 
 
 navigate to the folder in the command line. 
-* To view the attributes, strengths, and weaknesses of monotype pokemon, run ```python3 monotype.py type``` where *type* is the type to view. 
-* To view the attributes, strengths, and weaknesses of dualtype pokemon, run ```python3 dualtype.py type1 type2``` where *type1* is the primary type and *type2* is the secondary type.  
-* To look up what an ability does, run ```python3 ability.py ability``` where *ability* is the ability in question. 
+* To view the attributes, strengths, and weaknesses of monotype pokemon, run ```python monotype.py type``` where *type* is the type to view. 
+* To view the attributes, strengths, and weaknesses of dualtype pokemon, run ```python dualtype.py type1 type2``` where *type1* is the primary type and *type2* is the secondary type.  
+* To look up what an ability does, run ```python ability.py ability``` where *ability* is the ability in question. If the ability is two words, like Pure Power or Air Lock, enclose the ability in quotes. For example, if I wanted to find out what Air Lock did, I would run ```python ability.py 'air lock'```. 
+* To view the list of types sorted alphabetically, run ```python types.py```.
+* To view the list of abilities sorted alphabetically, run ```python abilities.py```.
 
 The **types** are dictionaries stored as pickles in the *types* folder. Likewise, the **abilities** are stored in the *abilities* folder are in the format of pickled dictionaries. 
 
@@ -34,5 +36,5 @@ Requirements:
 
 **04/16/19:** 
 * Initial commit
-* `dualtype.py`, `monotype.py` are completed and have been tested in Terminal on Mac OS. 
-* `ability.py` and `abilities.py` are nearly completed. I'm on the *S* abilities. The `ability.py` program does run from terminal on Mac OS. 
+* `dualtype.py`, `monotype.py` are completed and have been tested in Terminal on Mac OS and Windows 
+* `ability.py` and `abilities.py` are nearly completed. I'm on the *S* abilities. The `ability.py` program does run from terminal on Mac OS and Windows. 
