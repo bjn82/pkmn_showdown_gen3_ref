@@ -38,3 +38,8 @@ Requirements:
 * Initial commit
 * `dualtype.py`, `monotype.py` are completed and have been tested in Terminal on Mac OS and Windows 
 * `ability.py` and `abilities.py` are nearly completed. I'm on the *S* abilities. The `ability.py` program does run from terminal on Mac OS and Windows. 
+
+## Future ideas: 
+* Add a search function to `abilities.py` (and possibly `types.py`, though that may not be as useful). 
+* Modify `abilities.py` and `types.py` so that each time those are executed, they don't remake each of the pickles. 
+* Maybe someday down the road implement a status affliction reference. 
