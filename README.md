@@ -18,10 +18,14 @@ navigate to the folder in the command line.
 * To view the attributes, strengths, and weaknesses of dualtype pokemon, run ```python3 dualtype.py type1 type2``` where *type1* is the primary type and *type2* is the secondary type.  
 * To look up what an ability does, run ```python3 ability.py ability``` where *ability* is the ability in question. 
 
+The **types** are dictionaries stored as pickles in the *types* folder. Likewise, the **abilities** are stored in the *abilities* folder are in the format of pickled dictionaries. 
+
+If for some reason, a type or ability is missing, try re-running either `abilities.py` or `types.py`. Those have the code to create the dictionaries and pickle them. If you would like to expand this code to work for future generations, those two pieces of code are the ones to modify. 
 
 Requirements: 
 * Python 3
   + pickle
+  + argparser
 
 
 ---
