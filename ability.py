@@ -4,6 +4,13 @@
 Created on Mon Apr 15 09:45:58 2019
 
 @author: brennandonnell
+
+The purpose of this code is to query an ability. If the ability is valid,
+then the corresponding pickle will be loaded and returned in the format
+{
+'Ability': 'Name of the ability',
+'Description': 'What the ability does'
+}
 """
 
 #%%
@@ -24,10 +31,7 @@ ABILITY_CODES = ['air lock','arena trap', 'battle armor', 'blaze', 'cacophony',
                  'magnet pull','marvel scale','minus','natural cure',
                  'oblivious','overgrow', 'own tempo', 'pickup', 'plus', 
                  'poison point', 'pressure', 'pure power', 'rain dish', 
-                 'rock head', 'rough skin', 'run away']#,]
-#             'fire', 'flying', 'ghost', 'grass', 'ground', 'ice',
-#             'normal', 'poison', 'psychic', 'rock', 'steel', 'water']
-
+                 'rock head', 'rough skin', 'run away']
 #%%
 """
 This is where you check for abilities. 
