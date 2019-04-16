@@ -291,3 +291,13 @@ ability_list = [air_lock, arena_trap, battle_armor, blaze, cacophony,
 for itm in ability_list:
     with open('abilities/' + itm['Ability'] + '.pickle', 'wb') as output_file:
         pickle.dump(itm, output_file)
+        
+#%%
+print('List of Abilities, sorted alphabetically:')
+letter = 'A'
+print('A')
+for ind,val in enumerate(ability_list):
+    if val['Ability'][0] != letter:
+        letter = val['Ability'][0]
+        print(letter)
+    print('\t',ind, val['Ability'])

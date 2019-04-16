@@ -194,3 +194,14 @@ type_list = [bug, dark, dragon, electric, fighting,
 for itm in type_list:
     with open('types/' + itm['Type'][0] + '.pickle', 'wb') as output_file:
         pickle.dump(itm, output_file)
+        
+        
+#%%
+print('List of Types, sorted alphabetically:')
+letter = 'B'
+print('B')
+for ind,val in enumerate(type_list):
+    if val['Type'][0][0].upper() != letter:
+        letter = val['Type'][0][0].upper()
+        print(letter)
+    print('\t',ind, val['Type'][0])
