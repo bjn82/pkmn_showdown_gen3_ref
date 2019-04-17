@@ -34,6 +34,10 @@ Requirements:
 
 ## Progress Report: 
 
+**04/17/19:**
+* Abilities are completed. 
+* Merged branches with the tested (but still incomplete) `ability.py` and `abilities.py`. 
+
 **04/16/19:** 
 * Initial commit
 * `dualtype.py`, `monotype.py` are completed and have been tested in Terminal on Mac OS and Windows 
