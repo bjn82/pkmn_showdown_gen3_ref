@@ -19,19 +19,21 @@ Description:, text
 """
 
 burned = {
-        'Status': '',
+        'Status': 'Burn',
         'Description': ''
         }
 
 confused = {
-        'Status': '',
+        'Status': 'Confused',
         'Description': ''
         }
 
 frozen = {
-        'Status': '',
+        'Status': 'Frozen',
         'Description': ''
         }
+
+
 
 #infatuated 
 

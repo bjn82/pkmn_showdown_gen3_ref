@@ -273,6 +273,140 @@ run_away = {
         'Ability': 'Run Away',
         'Description': 'This pokemon can always run away from random encounters. It has no effect on switching out of battle.'
         }
+sand_stream = {
+    'Ability': 'Sand Stream',
+    'Description': 'When a pokemon with this ability enters the battle, a sandstorm is summoned. It lasts for the whole battle or until the weather effect is altered or cancelled by another weather effect. If a pokemon with this ability is sent out on the same turn as another pokemon whose ability alters the weather, then the weather effect of the slower pokemon will override this effect.'
+    }
+
+sandy_veil = {
+    'Ability': 'Sandy Veil',
+    'Description': 'During a sandstorm, the accuracy of any move used against this pokemon is modified by a factor of 4/5. Additionally, this pokemon will take no damage from a sandstrom if it would otherwise.'
+    }
+
+serene_grace = {
+    'Ability': 'Serene Grace',
+    'Description': 'Doubles the chance of a move having an additional effect. For example, Psychic will have a 20% chance to drop the Special Defense of a target as opposed to the original 10% chance.'
+    }
+
+shadow_tag = {
+        'Ability': 'Shadow Tag',
+        'Description': 'Prevents foes from switching out of battle while this pokemon is in battle. Opponents can still switch out through moves such as U-Turn or Baton Pass. Opponents can also force this pokemon to be replaced with another one through moves like Roar or Whirlwind.'
+        }
+
+shed_skin = {
+        'Ability': 'Shed Skin',
+        'Description': 'At the end of each turn, there is a 30% chance of curing a status condition such as paralysis or poison. If it cures the condition, it will do so before damage is taken from a burn or from poison.'
+        }
+
+shell_armor = {
+        'Ability': 'Shell Armor',
+        'Description': 'This pokemon is protected from critical hits. It bought crit insurance.'
+        }
+
+shield_dust = {
+        'Ability': 'Shield Dust',
+        'Description': 'When this pokemon takes damage, any additional effects from the attack are cancelled. For example, if this pokemon was hit by body slam, it would take the damage but it cannot be paralyzed from it, whereas other pokemon have a 30% chance of paralysis. This ability does not work on moves that do not deal damage, such as Thunder Wave or Will-O-Wisp.'
+        }
+
+soundproof = {
+        'Ability': 'Soundproof',
+        'Description': 'Prevents this pokemon from being affected by sound-based moves.'
+        }
+
+speed_boost = {
+        'Ability': 'Speed Boost',
+        'Description': 'At the end of each turn this pokemon is in battle, its speed is boosted by one stage. It will not activate on the turn that this pokemon is switched in.'
+        }
+
+static = {
+        'Ability': 'Static',
+        'Description': 'When this pokemon is hit by a contact-move, there is a 30% chance that the attacker will become paralyzed. This can affect Ground-type pokemon. If this pokemon is hit by a multi-hit contact move, each hit has an independent chance of activating.'
+        }
+
+stench = {
+        'Ability': 'Stench', 
+        'Description': 'No effect in battle. Outside of battle, a pokemon in the lead with this ability reduces the wild pokemon encounter rate by 50%.'
+        }
+
+sticky_hold = {
+        'Ability': 'Sticky Hold',
+        'Description': 'This pokemon cannot have its held item taken (through Thief), eaten by a foe (through Pluck), knocked out of its hand (through Knock Off), or switched for the held-item of an opponent (through Trick or Switcheroo).'
+        }
+
+sturdy = {
+        'Ability': 'Sturdy',
+        'Description': 'Negates one-hit-KO moves (OHKO).'
+        }
+
+suction_cups = {
+        'Ability': 'Suction Cups',
+        'Description': 'This ability prevents an opponent from forcing this pokemon out of battle with moves like Roar. It does not affect switching out the pokemon, nor does it affect moves like Baton Pass.'
+        }
+
+swarm = {
+        'Ability': 'Swarm',
+        'Description': 'If HP is ≤ 1/3 of total, then Bug-type moves are 50% more powerful.'
+        }
+
+swift_swim = {
+        'Ability': 'Swift Swim',
+        'Description': 'Doubles speed during rainfall.'
+        }
+
+synchronize = {
+        'Ability': 'Synchronize',
+        'Description': 'When this pokemon is burnt, poisoned, or paralyzed, by another pokemon, the pokemon that inflicted the status will be inflicted with the status as well. If this pokemon becomes badly poisoned (through Toxic), its opponent will only become poisoned. The ability can be activated by the ability of an opponent, such as Spark or Effect Spore, but it cannot be activated by an item, such as the Toxic Orb. This ability CAN affect an opponent behind substitute. If the pokemon with Synchronize has a held-item to cure the status, Synchronize will activate before the status is cured. Freeze and Sleep cannot be synchronized.'
+        }
+
+thick_fat = {
+        'Ability': 'Thick Fat', # thicc fat
+        'Description': 'TWhen this pokemon is hit by an Ice-type move or a Fire-type move, the Attack or Special Attack stat of the attacker is reduced by 50% during the damage calculation, essentially halving the damage this pokemon takes.'
+        }
+
+torrent = {
+        'Ability': 'Torrent',
+        'Description': 'If HP is ≤ 1/3 of total, then Water-type moves are 50% more powerful.'
+        }
+
+trace = {
+        'Ability': 'Trace', 
+        'Description': 'When this pokemon enters battle, it copies the ability of its opponent. It will copy any ability, but if it copies Trace, the ability will not activate again. This ability can be copied by the move Role Play. This ability can also copy Wonder Guard.'
+        }
+
+truant = {
+        'Ability': 'Truant',
+        'Description': 'Every second turn, this pokemon cannot move. It is slacking off and loafing around. Switching out of battle or gaining the ability resets the counter. It is also reset by Sleep, and a pokemon with this ability can always attack on the turn it wakes up. Charge-up moves will not work without a Power Herb. Moves that require a turn to recharge, like Hyper Beam, it will still use the move as normal, but spends the turn that it would need to recharge loafing around.'
+        }
+
+vital_spirit = {
+        'Ability': 'Vital Spirit',
+        'Description': 'Prevents this pokemon from being affected by sleep-inducing moves, including Yawn. Rest will also fail when used by this pokemon.'
+        }
+
+volt_absorb = {
+        'Ability': 'Volt Absorb',
+        'Description': 'When this pokemon is hit by an Electric-type attack, its HP is restored by 1/4 of its max HP. This ability will not activate if the pokemon is protected from the Electric-type move.'
+        }
+
+water_absorb = {
+        'Ability': 'Water Absorb',
+        'Description': 'When this pokemon is hit by a Water-type attack, its HP is restored by 1/4 of its max HP. This ability will not activate if the pokemon is protected from the Water-type move.'
+        }
+
+water_veil = {
+        'Ability': 'Water Veil',
+        'Description': 'This pokemon cannot be burned.'
+        }
+
+white_smoke = {
+        'Ability': 'White Smoke',
+        'Description': 'A white smoke protects this pokemon from stat reductions caused by other pokemon, whether through Abilities (such as Intimidate) or moves (such as Scary Face). It does not protect the pokemon from self-inflicted stat reductions from moves like Curse or Superpower. It only offers protection from moves and abilities that drop stats in stages, so it does not prevent the stat reduction from statuses like Burn or Paralysis. It also does not prevent stat reductions that were passed on from other pokemon through a move like Baton Pass.'
+        }
+
+wonder_guard = {
+        'Ability': 'Wonder Guard',
+        'Description': 'This pokemon is immune to any damage from attacks that are not Super Effective. The ability does not prevent self-inflicted damage from Confusion, stat reductions from moves like Tail Whip, and it does not protect from damage inflicted from a status, such as a Burn or Poison. Nor does this ability protect from terrain hazards, such as Spikes or Stealth Rocks. This ability does not protect you from weather effects, such as damage taken from Hail or a Sandstorm. Moves that have recoil still deal damage to this pokemon.'
+        }
 
 #%%
 ability_list = [air_lock, arena_trap, battle_armor, blaze, cacophony,
@@ -284,8 +418,12 @@ ability_list = [air_lock, arena_trap, battle_armor, blaze, cacophony,
                 liquid_ooze, magma_armor, magnet_pull, marvel_scale, minus, 
                 natural_cure, oblivious, overgrow, oblivious, pickup, plus, 
                 poison_point, pressure, pure_power, rain_dish, rock_head, 
-                rough_skin, run_away
-                
+                rough_skin, run_away, sand_stream, sandy_veil, serene_grace,
+                shadow_tag, shed_skin, shell_armor, shield_dust, soundproof,
+                speed_boost, static, stench, sticky_hold, sturdy, suction_cups,
+                swarm, swift_swim, synchronize, thick_fat, torrent, trace,
+                truant, vital_spirit, volt_absorb, water_absorb, water_veil,
+                white_smoke, wonder_guard                
                 ]
 
 #%%

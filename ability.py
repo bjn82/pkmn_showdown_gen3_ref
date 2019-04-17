@@ -31,7 +31,13 @@ ABILITY_CODES = ['air lock','arena trap', 'battle armor', 'blaze', 'cacophony',
                  'magnet pull','marvel scale','minus','natural cure',
                  'oblivious','overgrow', 'own tempo', 'pickup', 'plus', 
                  'poison point', 'pressure', 'pure power', 'rain dish', 
-                 'rock head', 'rough skin', 'run away']
+                 'rock head', 'rough skin', 'run away','sand stream',
+                 'sand veil', 'serene grace', 'shadow tag', 'shed skin', 
+                 'shell armor', 'shield dust', 'soundproof', 'speed boost',
+                 'static', 'stench', 'sticky hold', 'sturdy', 'suction cups',
+                 'swarm', 'swift swim', 'synchronize', 'thick fat', 'torrent',
+                 'trace', 'truant', 'vital spirit', 'volt absorb', 
+                 'water absorb', 'water veil', 'white smoke', 'wonder guard']
 #%%
 """
 This is where you check for abilities. 
